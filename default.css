@@ -1,12 +1,28 @@
-#header {
-  background-color:#A7DBD8;
-  height:200px;
+
+header {
+  height:220px;
+  background-image: url(http://fc09.deviantart.net/fs71/f/2013/180/1/2/blackboard_texture_2_by_allthingsprecious-d6bab3c.jpg);
 }
+
+footer {
+  height:200px;
+  background-image: url(http://fc09.deviantart.net/fs71/f/2013/180/1/2/blackboard_texture_2_by_allthingsprecious-d6bab3c.jpg);
+
+}
+
 
 #headshot {
 	padding-top: 10px;
 }
 
+
+#blog-image {
+	float: center;
+}
+
+a {
+	padding-right: 1em;
+}
 
 h1 {
   text-align: center;
@@ -26,12 +42,20 @@ p {
 	font-size: 16px;
 }
 
-.header-spacing {
-	font-size:0pt; 
+#copyright{
+	text-align: center;
 	font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-	line-height:0pt; 
+	font-size: 16px;
+	color:white;
+}
+
+
+.header-spacing {
+	font-size:0; 
+	font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+	line-height:0; 
 	text-align:left;
-	width: 3px;
+	width: 3em;
 	background-color:#ffffff;
 }
 
@@ -49,17 +73,29 @@ p {
 	font-size: 30px;
 }
 
-.footer {
-	text-align: left;
-	text-decoration: none;
-	font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-	font-size: 20px;
-
-}
 
 .footer-link {
 	text-decoration: none;
 	font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
 	font-size: 20px;
+}
 
+
+
+.footer-img{
+	float:left;
+	display: inline-block;
+	height: 57px;
+	width: 57px;
+	padding-right: 1em;
+}
+
+#social-footer {
+	margin-left:40%;
+	display:block;
+}
+
+#social-header {
+	margin-left:70%;
+	display:inline-block;
 }
