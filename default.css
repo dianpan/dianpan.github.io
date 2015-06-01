@@ -1,3 +1,6 @@
+* {
+  font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+}
 
 header {
   height:220px;
@@ -21,18 +24,34 @@ footer {
 }
 
 a {
-	padding-right: 1em;
+	text-decoration: none;
+  text-align: left;
+  font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+  font-size: 16px
 }
 
-h1 {
+a:hover {
+  color:red;
+}
+
+a:clicked {
+  color:red;
+}
+
+#h1 {
+  font-size:55px;
+}
+
+.headline-text {
   text-align: center;
-  font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-  font-size: 55px;
+}
+
+.text {
+  font-size: 20px;
 }
 
 .bio-text {
 	text-align: left;
-	font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
 	font-size: 16px;
 }
 
@@ -51,9 +70,9 @@ p {
 
 
 .header-spacing {
-	font-size:0; 
+	font-size:0;
 	font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-	line-height:0; 
+	line-height:0;
 	text-align:left;
 	width: 3em;
 	background-color:#ffffff;
