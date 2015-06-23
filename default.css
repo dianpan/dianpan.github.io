@@ -122,3 +122,8 @@ p {
   display:block;
   margin-top: 20px;
 }
+
+.blog-list {
+  text-align: left;
+  font-size: 20px;
+}
