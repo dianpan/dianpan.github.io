@@ -55,6 +55,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+* {
+  font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+}
+
 ul, ol {
    -webkit-margin-before: 0;
    -webkit-margin-after: 0;
@@ -65,14 +70,22 @@ ul, ol {
 
 html {
   background: url(../img/grumpy_cat_large_image.jpg)
-  /*url(../img/green-background.jpg) */
   no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'PT Sans', sans-serif;
 }
+
+.blog {
+  background: url(../img/green-background.jpg)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .debug {
   border: 0px solid red;
@@ -81,12 +94,20 @@ html {
 .nav-name {
   font-size: 18px;
   color: white;
-  font-family: 'Muli', sans-serif;
+  margin-top: 20px;
+}
+
+.link{
+  text-decoration: none;
+  color:white;
+}
+
+.link:hover {
+  color:black;
 }
 
 
 /* atomic styles says - every css class should contain ONLY ONE RULE
-individual rules
 names based on abbreviations (http://docs.emmet.io/cheat-sheet/)
 .p-xxs
 .p-xs
@@ -99,7 +120,7 @@ names based on abbreviations (http://docs.emmet.io/cheat-sheet/)
 .p-sm { padding: 0.6em;}
 .p-xxl { padding: 6em;}
 /*.bgc-cool { background-color: rgba(126, 158, 206, 0.7);}*/
-.bgc-bone { background-color: rgba(255, 255, 255, 0.65);}
+.bgc-bone { background-color: rgba(255, 255, 255, 0.6);}
 
 .fz-xxl { font-size: 16em;}
 
@@ -114,7 +135,6 @@ names based on abbreviations (http://docs.emmet.io/cheat-sheet/)
 .bdw-1 { border-width: 1px;}
 .bds-solid { border-style: solid;}
 .bdc-fog { border-color: #e1e8ed}
-
 
 .tt--logo{ width: 50px;}
 
