@@ -97,13 +97,18 @@ html {
   margin-top: 20px;
 }
 
-.link{
+.link {
   text-decoration: none;
   color:white;
 }
 
+.link:clicked {
+  text-decoration: none;
+  color:rgb(255,255,255);
+}
+
 .link:hover {
-  color:black;
+  color:rgb(128,0,0);
 }
 
 
@@ -118,11 +123,17 @@ names based on abbreviations (http://docs.emmet.io/cheat-sheet/)
 */
 .p-xs { padding: 0.4em;}
 .p-sm { padding: 0.6em;}
-.p-xxl { padding: 6em;}
+.p-xxl { padding: 5em;}
 /*.bgc-cool { background-color: rgba(126, 158, 206, 0.7);}*/
+
+.bgc-bone-light { background-color: rgba(255, 255, 255, 0.5);}
 .bgc-bone { background-color: rgba(255, 255, 255, 0.6);}
 
-.fz-xxl { font-size: 16em;}
+.fc-grey { color: rgb(0,0,0,0.6);}
+.fc-white { color: white;}
+
+
+.fs-l { font-size: 1.5em;}
 
 .fl-l {float:left;}
 .fl-r {float:right;}
