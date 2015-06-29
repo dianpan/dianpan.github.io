@@ -151,17 +151,21 @@ names based on abbreviations (http://docs.emmet.io/cheat-sheet/)
   width:350px;
   height:234px;}
 
-tt--css{
+.tt--css{
   width:190px
   height:190px;
 }
 
-tt--css2{
+.tt--css2{
   width: 335px;
   height:89px;
-
 }
 
+.tt--dad {
+  width:226px;
+  height:221px;
+  margin-left:25%;
+}
 
 
 
