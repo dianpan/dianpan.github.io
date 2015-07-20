@@ -56,6 +56,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+    width:960px;
+    margin:0 auto;
+    background: url("faux-columns.png") repeat-y;
+    overflow: hidden
+}
+
+.sidebar {
+    float:left;
+    width:300px;
+}
+
+.content {
+    float:left;
+    width:640px;
+}
+
+
 * {
   font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
 }
@@ -111,7 +129,7 @@ html {
   color:rgb(128,0,0);
 }
 
-
+.titlef{}
 /* atomic styles says - every css class should contain ONLY ONE RULE
 names based on abbreviations (http://docs.emmet.io/cheat-sheet/)
 .p-xxs
