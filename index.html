@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div>
-  <img class="img" src="/imgs/IMG_me.jpg">
+  <img class="img" src="/imgs/IMG_35492.jpg">
   <br>
 </div>
 
@@ -21,6 +21,7 @@ layout: default
 
         <p>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {{ post.excerpt }}
         </p>
       </li>
     {% endfor %}

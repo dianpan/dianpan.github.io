@@ -5,14 +5,14 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background: hsl(210, 45, 10);
+    background: $background-color-dark;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    color: #26d991;
+    color: $grey-color-light;
     font-size: 28px;
     line-height: 57px;
     letter-spacing: -1px;
@@ -31,7 +31,7 @@
     }
 
     .page-link {
-        color: #26d991;
+        color: $green-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
