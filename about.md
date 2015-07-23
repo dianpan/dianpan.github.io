@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-<!-- <div class="centered grid__col--6">
-  <img class="img--avatar" src="https://pbs.twimg.com/profile_images/578368788535455744/WhLtbEaB.jpeg">
-</div> -->
+<div>
+  <img class="img" src="/imgs/IMG_me.jpg">
+  <br>
+</div>
 
-This is a fun little blog documenting my transtion from online marketer to web developer.
+<h4 class="center-text">This is a fun little blog documenting my transition from marketing to full stack development.
+</h4>

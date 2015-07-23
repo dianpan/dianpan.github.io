@@ -38,9 +38,16 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
+.img {
+    margin-bottom: em(24px);
     max-width: 100%;
-    vertical-align: middle;
+    height: auto;
+
+    display: block;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
 
 
@@ -90,15 +97,13 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        border-radius: 30%;
+        transform: scale(1.15);
+        transition: background-color .5s, transform .5s ease-out;
     }
 }
+
 
 
 /**
@@ -198,18 +203,16 @@ pre {
             color: hsl(12, 70, 50);
         }
 
-    a
-    &:hover {
-        border-radius: 100%;
-        fill: hsl(210, 45, 10);
-        color: hsl(210, 45, 10);
-        transform: scale(1.25);
-        transition: background-color .5s, transform .5s ease-out;
-        }
+        a
+        &:hover {
+            border-radius: 100%;
+            fill: hsl(210, 45, 10);
+            color: hsl(210, 45, 10);
+            transform: scale(1.25);
+            transition: background-color .5s, transform .5s ease-out;
+            }
     }
 }
-
-
 
 
 

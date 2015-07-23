@@ -31,9 +31,15 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
+.img {
+  margin-bottom: em(24px);
   max-width: 100%;
-  vertical-align: middle; }
+  height: auto;
+  display: block;
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%; }
 
 /**
  * Figures
@@ -66,11 +72,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #2a7ae2;
   text-decoration: none; }
-  a:visited {
-    color: #1756a9; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    border-radius: 30%;
+    transform: scale(1.15);
+    transition: background-color .5s, transform .5s ease-out; }
 
 /**
  * Blockquotes
@@ -156,16 +161,16 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
+  background: #0e1a25;
   position: relative; }
 
 .site-title {
+  color: #26d991;
   font-size: 28px;
   line-height: 57px;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
 
 .site-nav {
   float: right;
@@ -173,7 +178,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #26d991;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -257,6 +262,9 @@ pre {
 /**
  * Page content
  */
+.center-text {
+  text-align: center; }
+
 .page-content {
   padding: 30px 0; }
 
