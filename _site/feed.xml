@@ -5,30 +5,31 @@
     <description>a fun little blog about learning to code.</description>
     <link>http://dianpan.github.io/</link>
     <atom:link href="http://dianpan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 01:21:52 -0700</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 01:21:52 -0700</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2015 11:22:05 -0700</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2015 11:22:05 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Syntactically Awesome Style Sheets</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg&quot; alt=&quot;http://sass-lang.com/&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In week 3 of DBC, we were asked to code a website from scratch using HTML and CSS.  That was probably the most frustrating week of my life (&lt;em&gt;dramatic&lt;/em&gt; I know) mostly due to CSS being horribly painful to a new coder. Especially if you’re just mucking around not really knowing how to structure your CSS or what best practices to follow. Now that I’m in week 9, &lt;em&gt;and the last week of Phase 0&lt;/em&gt;, we were asked to refactor our sites using a framework like &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; or &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;.  I chose to redo my site pulling in the Jekyll framework.  Why Jekyll is awesome will come in a different blog post, but through Jekyll I came upon a sexy little CSS compiler called &lt;em&gt;Sass&lt;/em&gt;.  Which has helped me remember why I love web design again.&lt;/p&gt;
+&lt;p&gt;In week 2 of DBC, we were asked to code a website from scratch using HTML and CSS.  That was probably the most frustrating week of my life (&lt;em&gt;dramatic&lt;/em&gt; I know) mostly due to CSS being horribly painful to a new coder. Especially if you’re just mucking around not really knowing how to structure your CSS or what best practices to follow. Now that I’m in week 9, &lt;em&gt;and the last week of Phase 0&lt;/em&gt;, we were asked to refactor our sites using a framework like &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; or &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;.  I chose to redo my site pulling in the Jekyll framework.  Why Jekyll is awesome will come in a different blog post, but through Jekyll I came upon a sexy little CSS compiler called &lt;em&gt;Sass&lt;/em&gt;.  Which has helped me remember why I love web design again.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-sass-you-ask&quot;&gt;What is Sass you ask?&lt;/h1&gt;
-&lt;p&gt;Well, straight from the horse’s mouth, aka &lt;a href=&quot;http://www.hamptoncatlin.com/&quot;&gt;Hampton Catlin&lt;/a&gt;, he says “think of it as mixing rocket fuel with your CSS and strapping it to a skateboard while pushing it down a hill” (&lt;em&gt;and I thought I was dramatic&lt;/em&gt;).  BUT it turns out every bit of CSS from it’s use of wonderful color manipulation to freakin well organized CSS code, I’m a fan.&lt;/p&gt;
+&lt;p&gt;Well, straight from the horse’s mouth, aka &lt;a href=&quot;http://www.hamptoncatlin.com/&quot;&gt;Hampton Catlin&lt;/a&gt;, he says “think of it as mixing rocket fuel with your CSS and strapping it to a skateboard while pushing it down a hill” (&lt;em&gt;and I thought I was dramatic&lt;/em&gt;).  BUT it turns out, after spending all day learning how to use Sass, I am a fan.  It allows you to follow the principles of object oriented programming while compiling your code into vanilla CSS.&lt;/p&gt;
 
 &lt;h1 id=&quot;things-to-love-about-sass&quot;&gt;5 things to love about Sass&lt;/h1&gt;
+&lt;p&gt;CSS is a subclass of Sass, meaning just writing CSS means you’re also writing Sass! Of course, Sass lets you do waaay cooler things than plain CSS…&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;CSS is a subclass of Sass, meaning just writing CSS means you’re also writing Sass!&lt;/li&gt;
-  &lt;li&gt;Stay DRY my friends - you can create variables and reuse them across your stylesheets&lt;/li&gt;
-  &lt;li&gt;you can do crazy color manipulation like &lt;a href=&quot;http://s.codepen.io/boomerang/bcf312ac50be7dee42d1f1133e07c69e1437591717016/index.html#&quot;&gt;this&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;placeholder classes &lt;code&gt;%placeholder&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;CSS3 mixins&lt;/li&gt;
-  &lt;li&gt;SO MUCH EASIER TO MAINTAIN!&lt;/li&gt;
+  &lt;li&gt;you can create variables and reuse them across your stylesheets&lt;/li&gt;
+  &lt;li&gt;you can use loops to dynamically create fun color palettes  like &lt;a href=&quot;http://codepen.io/ruandre/pen/howFi&quot;&gt;this&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;you can use placeholder classes &lt;code&gt;%placeholder&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;object oriented CSS - &lt;a href=&quot;http://oocss.org/spec/css-mixins.html&quot;&gt;CSS3 mixins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;THE CODE IS SO MUCH EASIER TO MAINTAIN!&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;em&gt;blog post to be finished later&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I will be adding more…&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Jul 2015 00:00:00 -0700</pubDate>
         <link>http://dianpan.github.io/w9-sass</link>
@@ -113,9 +114,7 @@
     
       <item>
         <title>Identifying stereotype threats</title>
-        <description>&lt;h1 id=&quot;phase-0-week-6&quot;&gt;Phase 0, Week 6&lt;/h1&gt;
-
-&lt;p&gt;This week we researched the topic of stereotype threat. Per Wikipedia:&lt;/p&gt;
+        <description>&lt;p&gt;This week we researched the topic of stereotype threat. Per Wikipedia:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Stereotype threat is a situational predicament in which people are or feel themselves to be at risk of confirming negative stereotypes about their social group.&lt;/code&gt;&lt;/p&gt;
 
@@ -177,9 +176,7 @@
     
       <item>
         <title>Ruby data structures</title>
-        <description>&lt;h1 id=&quot;phase-0-week-3&quot;&gt;Phase 0, week 3&lt;/h1&gt;
-
-&lt;p&gt;Week 3, we’ve finally started learning a language - Ruby&lt;/p&gt;
+        <description>&lt;p&gt;We’ve finally started learning a language - Ruby&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 May 2015 17:00:00 -0700</pubDate>
         <link>http://dianpan.github.io/w3-ruby-data-structures</link>
@@ -192,16 +189,7 @@
     
       <item>
         <title>A deeper look into CSS</title>
-        <description>&lt;h1 id=&quot;phase-0-week-2&quot;&gt;Phase 0, week 2&lt;/h1&gt;
-
-&lt;p&gt;Week 2 dove into:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;HTML5&lt;/li&gt;
-  &lt;li&gt;CSS&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This week we coded a static website from scratch using HTML and CSS and hosted that on Github pages.&lt;/p&gt;
+        <description>&lt;p&gt;This week we coded a static website from scratch using HTML and CSS and hosted that on Github pages.&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 May 2015 17:00:00 -0700</pubDate>
         <link>http://dianpan.github.io/w2-css</link>

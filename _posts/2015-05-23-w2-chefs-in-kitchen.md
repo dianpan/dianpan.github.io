@@ -4,9 +4,6 @@ title:  "Chefs in the kitchen"
 date:  2015-05-23 22:08:40
 categories: phase0
 ---
-
-# Phase 0, week 1
-
 Going into DBC, I really didn’t know what to expect with the new hybrid offsite/onsite approach. Now that week 1 is coming to an end, I’ve been really impressed so far with how well thought out and high quality the curriculum is. I’ve learned how to navigate through the command line, push code onto github, navigate through version control and get git working.
 
 Week 1 has also been eye opening, I didn’t realize how much time Phase 0 actually took, and I need to make sure I don’t short change myself by not dedicating enough time to all of the material.  DBC claims that you can hold a full time job while going through Phase 0 but I disagree.  I think it's better to hold a part time job and focus on really learning the material.  [ *Update* : I quit my job around Week 6 to focus soley on DBC]

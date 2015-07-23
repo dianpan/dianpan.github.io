@@ -4,15 +4,6 @@ title:  "An intro to git, Github, and the command line"
 date:   2015-05-15 22:08:40
 categories: phase0
 ---
-
-# Phase 0, week 1
-
-Week 1 covered 3 main topics:
-
-1. git
-2. Github
-3. the command line
-
 Like most things I don't understand, I was really intimidated by Github, this public arena to show off your code. I always assumed that git and Github were related. This week I got a crash course on git and Github 101 and now I'm forking repos, creating and merging branches like a boss. So what is the difference between git and GitHub?
 
 git lives locally on your computer while GitHub is an online platform where you can share your repositories and updated code pushes with other people. It keeps a working version of your code that you can share publicly with others.

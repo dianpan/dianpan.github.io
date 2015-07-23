@@ -4,9 +4,6 @@ title:  "Identifying stereotype threats"
 date:  2015-06-22 22:08:40
 categories: phase0
 ---
-
-# Phase 0, Week 6
-
 This week we researched the topic of stereotype threat. Per Wikipedia:
 
 ``` Stereotype threat is a situational predicament in which people are or feel themselves to be at risk of confirming negative stereotypes about their social group. ```
