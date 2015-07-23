@@ -1,0 +1,13 @@
+# Site settings
+title: Dian Pan
+email: dian.di.pan@gmail.com
+description: a fun little blog about learning to code.
+url: "http://dianpan.github.io"
+# the base hostname & protocol for your site
+twitter_username: lookgoodandwin
+github_username:  dianpan
+linkedin_username:  dianpan
+
+# Build settings
+markdown: kramdown
+permalink: /:title
