@@ -5,13 +5,13 @@
     <description>a fun little blog about learning to code.</description>
     <link>http://dianpan.github.io/</link>
     <atom:link href="http://dianpan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 11:22:05 -0700</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 11:22:05 -0700</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2015 11:44:34 -0700</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2015 11:44:34 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Syntactically Awesome Style Sheets</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg&quot; alt=&quot;http://sass-lang.com/&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg&quot; alt=&quot;Sass&quot; style=&quot;width: 300px; height: 250px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In week 2 of DBC, we were asked to code a website from scratch using HTML and CSS.  That was probably the most frustrating week of my life (&lt;em&gt;dramatic&lt;/em&gt; I know) mostly due to CSS being horribly painful to a new coder. Especially if you’re just mucking around not really knowing how to structure your CSS or what best practices to follow. Now that I’m in week 9, &lt;em&gt;and the last week of Phase 0&lt;/em&gt;, we were asked to refactor our sites using a framework like &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; or &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;.  I chose to redo my site pulling in the Jekyll framework.  Why Jekyll is awesome will come in a different blog post, but through Jekyll I came upon a sexy little CSS compiler called &lt;em&gt;Sass&lt;/em&gt;.  Which has helped me remember why I love web design again.&lt;/p&gt;
 
