@@ -5,29 +5,146 @@
     <description>a fun little blog about learning to code.</description>
     <link>http://dianpan.github.io/</link>
     <atom:link href="http://dianpan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jul 2015 17:28:46 -0700</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2015 17:28:46 -0700</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2015 18:37:03 -0700</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2015 18:37:03 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>Ruby Challenges</title>
+        <description>&lt;h1 id=&quot;phase-0-week-9&quot;&gt;Phase 0, week 9&lt;/h1&gt;
+
+</description>
+        <pubDate>Tue, 21 Jul 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w9-challenges</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w9-challenges</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>Big O Complexity and Notation</title>
+        <description>&lt;h1 id=&quot;phase-0-week-8&quot;&gt;Phase 0, week 8&lt;/h1&gt;
+
+</description>
+        <pubDate>Sun, 12 Jul 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w8-big-O</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w8-big-O</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby vs Javascript</title>
+        <description>&lt;h1 id=&quot;phase-0-week-7&quot;&gt;Phase 0, week 7&lt;/h1&gt;
+</description>
+        <pubDate>Sun, 05 Jul 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w7-js</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w7-js</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
         <title>Identifying stereotype threats</title>
-        <description># Phase 0, Week 6
+        <description>&lt;h1 id=&quot;phase-0-week-6&quot;&gt;Phase 0, Week 6&lt;/h1&gt;
 
+&lt;p&gt;This week we researched the topic of stereotype threat. Per Wikipedia:&lt;/p&gt;
 
-This week we researched the topic of stereotype threat. Per Wikipedia:
+&lt;p&gt;&lt;code&gt;Stereotype threat is a situational predicament in which people are or feel themselves to be at risk of confirming negative stereotypes about their social group.&lt;/code&gt;&lt;/p&gt;
 
-``` Stereotype threat is a situational predicament in which people are or feel themselves to be at risk of confirming negative stereotypes about their social group. ```
+&lt;p&gt;I’m sure everyone has felt stereotype threat from time to time. For example, I’m Chinese, my parents are first generation immigrants. They have strong accents, cook traditional Chinese food and don’t behave like American parents. Growing up, I tried desperately to blend in with my classmates. I think Asians suffer from the “model minority” steryotype:&lt;/p&gt;
 
-I&#39;m sure everyone has felt stereotype threat from time to time. For example, I&#39;m Chinese, my parents are first generation immigrants. They have strong accents, cook traditional Chinese food and don&#39;t behave like American parents. Growing up, I tried desperately to blend in with my classmates. I think Asians suffer from the &quot;model minority&quot; steryotype:
+&lt;p&gt;&lt;code&gt;A model minority is a minority group (whether based on ethnicity, race or religion) whose members are most often perceived to achieve a higher degree of socioeconomic success than the population average. This success is typically measured in income, education, low crime rates and high family stability. The term is highly controversial, for it is sometimes used to suggest there is no need for government action to reduce discrimination.&lt;/code&gt;&lt;/p&gt;
 
-```A model minority is a minority group (whether based on ethnicity, race or religion) whose members are most often perceived to achieve a higher degree of socioeconomic success than the population average. This success is typically measured in income, education, low crime rates and high family stability. The term is highly controversial, for it is sometimes used to suggest there is no need for government action to reduce discrimination. ```
+&lt;p&gt;Growing up, I found subtle expectations everywhere pushing me to conform to those model minority steryotypes. For example, there is this belief that Asians are good at math. My parents were great at math, but me… not so much. They didn’t understand why I wasn’t good at math and I questioned it too. Ultimately, concluding that just maybe it’s because I’m not that smart. So imagine if you will, not fitting into you’re own steryotype, that led to some weird identity issues.&lt;/p&gt;
 
-Growing up, I found subtle expectations everywhere pushing me to conform to those model minority steryotypes. For example, there is this belief that Asians are good at math. My parents were great at math, but me... not so much. They didn&#39;t understand why I wasn&#39;t good at math and I questioned it too. Ultimately, concluding that just maybe it&#39;s because I&#39;m not that smart. So imagine if you will, not fitting into you&#39;re own steryotype, that led to some weird identity issues.
+&lt;p&gt;To be clear, I don’t think I’m bad at math, I was just way more interested in things like music, reading and writing. But I do think growing up with those fixed beliefs kept me away from STEM majors in college. Which is why, it’s pretty [ironic, funny, awesome] that I am now leaving my nice Marketing gig to pursue code. I think that act in of itself is breaking down some of my own stereotype threats. I’m looking forward to continuing this story once I finish DBC and start a new career in web development!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Jun 2015 15:08:40 -0700</pubDate>
+        <link>http://dianpan.github.io/w6-identifying-stereotype-threats</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w6-identifying-stereotype-threats</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>Object Oriented Programming</title>
+        <description>&lt;h1 id=&quot;phase-0-week-6&quot;&gt;Phase 0, week 6&lt;/h1&gt;
+</description>
+        <pubDate>Sun, 21 Jun 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w6-object-oriented-programming</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w6-object-oriented-programming</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby Classes</title>
+        <description>&lt;h1 id=&quot;phase-0-week-5&quot;&gt;Phase 0, week 5&lt;/h1&gt;
+</description>
+        <pubDate>Sun, 14 Jun 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w5-ruby-classes</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w5-ruby-classes</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby Enumerable Methods</title>
+        <description>&lt;h1 id=&quot;phase-0-week-4&quot;&gt;Phase 0, week 4&lt;/h1&gt;
+</description>
+        <pubDate>Sun, 07 Jun 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/ruby-enumerable-methods</link>
+        <guid isPermaLink="true">http://dianpan.github.io/ruby-enumerable-methods</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby data structures</title>
+        <description>&lt;h1 id=&quot;phase-0-week-3&quot;&gt;Phase 0, week 3&lt;/h1&gt;
 
-To be clear, I don&#39;t think I&#39;m bad at math, I was just way more interested in things like music, reading and writing. But I do think growing up with those fixed beliefs kept me away from STEM majors in college. Which is why, it&#39;s pretty [ironic, funny, awesome] that I am now leaving my nice Marketing gig to pursue code. I think that act in of itself is breaking down some of my own stereotype threats. I&#39;m looking forward to continuing this story once I finish DBC and start a new career in web development!</description>
-        <pubDate>Mon, 22 Jun 2015 00:00:00 -0700</pubDate>
-        <link>http://dianpan.github.io/2015-06-22-identifying-stereotype-threatsmarkdown</link>
-        <guid isPermaLink="true">http://dianpan.github.io/2015-06-22-identifying-stereotype-threatsmarkdown</guid>
+&lt;p&gt;Week 3, we’ve finally started learning a language - Ruby&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 May 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w3-ruby-data-structures</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w3-ruby-data-structures</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>A deeper look into CSS</title>
+        <description>&lt;h1 id=&quot;phase-0-week-2&quot;&gt;Phase 0, week 2&lt;/h1&gt;
+
+&lt;p&gt;Week 2 dove into:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;HTML5&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This week we coded a static website from scratch using HTML and CSS and hosted that on Github pages.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 May 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w2-css</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w2-css</guid>
         
         
         <category>phase0</category>
@@ -54,46 +171,8 @@ To be clear, I don&#39;t think I&#39;m bad at math, I was just way more interest
 &lt;/ol&gt;
 </description>
         <pubDate>Sat, 23 May 2015 15:08:40 -0700</pubDate>
-        <link>http://dianpan.github.io/cultural-post-chefs-in-kitchen</link>
-        <guid isPermaLink="true">http://dianpan.github.io/cultural-post-chefs-in-kitchen</guid>
-        
-        
-        <category>phase0</category>
-        
-      </item>
-    
-      <item>
-        <title>An intro to git, Github, and the command line</title>
-        <description>&lt;h1 id=&quot;phase-0-week-1&quot;&gt;Phase 0, week 1&lt;/h1&gt;
-
-&lt;p&gt;Week 1 covered 3 main topics:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;git&lt;/li&gt;
-  &lt;li&gt;Github&lt;/li&gt;
-  &lt;li&gt;the command line&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Like most things I don’t understand, I was really intimidated with Github, this public arena to show off your code. I always assumed that git and Github were related. This week I got a crash course on git and Github 101 and am forking repos, creating branches and merging like a pro. So what is the difference between git and GitHub?&lt;/p&gt;
-
-&lt;p&gt;git lives locally on your computer while GitHub is an online platform where you can share your repositories and updated code pushes with other people. It keeps a working version of your code that you can share publicly with others.&lt;/p&gt;
-
-&lt;p&gt;There’s 2 main reasons why Github is so powerful:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Version control - version control means keeping track of all of your changes to a specific file, project, etc. through making copies of said file throughout each change. Github is a nice place to keep all of those versions in one place, where you or others can access all of the past and current version.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Developers use version control to hedge against mistakes and lost work. If a mistake is made, they can go back to a bug free, working version of their code. It saves time and money and makes perfect sense to me. I wish I had started using git for my own work. I’ve written over my email code many times before. I save different files locally on my computer, and its a mess to sort through.
-Branching - branching allows you to create clones of your files that you can work on independent of each other. Once you’re satisfied with a piece of your code, you can then merge it back to the main or “master” branch. This allows for many people to work on the same project without having to coordinate with each other or stepping on each other’s toes.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 15 May 2015 15:08:40 -0700</pubDate>
-        <link>http://dianpan.github.io/intro-to-git-github</link>
-        <guid isPermaLink="true">http://dianpan.github.io/intro-to-git-github</guid>
+        <link>http://dianpan.github.io/w2-chefs-in-kitchen</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w2-chefs-in-kitchen</guid>
         
         
         <category>phase0</category>

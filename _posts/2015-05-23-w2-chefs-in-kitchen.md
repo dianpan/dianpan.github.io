@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chefs in the kitchen"
-date:   2015-05-23 22:08:40
+date:  2015-05-23 22:08:40
 categories: phase0
 ---
 

@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Identifying stereotype threats
+title:  "Identifying stereotype threats"
+date:  2015-06-22 22:08:40
 categories: phase0
-date: 2015-06-22
-published: True
 ---
 
 # Phase 0, Week 6
-
 
 This week we researched the topic of stereotype threat. Per Wikipedia:
 
