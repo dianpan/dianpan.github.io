@@ -1,39 +1,18 @@
 ---
-layout: page
+layout: default
 title: Projects
 permalink: /projects/
 ---
+<div class="home">
+  <h1 class="page-heading center-text">Recent Projects</h1>
 
+  <ul class="post-list">
+      <li>
+        <p>
+          <a class="post-link" href="http://dianpan.github.io/cheat-sheet/">Cheat Sheet</a>
+        </p>
+      </li>
 
-# Ruby Innumerable, Array & String Methods:
-* each
-* map
-* gsub
-* select
-* inject
-* shift
-* unshift
-* flatten
-* sort
-* pop
-* push,
-* inspect
-* sample
-* join
-* include?
-* merge
-* length
-* each_with_index,
-* each_with_object
-* chomp
-* split
-* strip
+  </ul>
 
-# Javascript
-JS
-
-# git shortuts
-git
-
-# Command Line Shortcuts
-command line
+</div>
