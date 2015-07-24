@@ -5,8 +5,8 @@
     <description>a fun little blog about learning to code.</description>
     <link>http://dianpan.github.io/</link>
     <atom:link href="http://dianpan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 11:44:34 -0700</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 11:44:34 -0700</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2015 20:38:46 -0700</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2015 20:38:46 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -86,9 +86,43 @@
       </item>
     
       <item>
-        <title>Big O Complexity and Notation</title>
-        <description>&lt;h1 id=&quot;phase-0-week-8&quot;&gt;Phase 0, week 8&lt;/h1&gt;
+        <title>An Intro to Big O Notation </title>
+        <description>&lt;p&gt;Big O notation is used to classify algorithms by how their runtime changes relative to the input, as the input grows arbitrarily large. Runtime is defined by time and space complexity.&lt;/p&gt;
 
+&lt;p&gt;Below are some common run times:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;O(1): a constant-time method
+    &lt;ul&gt;
+      &lt;li&gt;the algorithm will always execute in the same time regardless of its input size.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;O(N): a linear-time method
+    &lt;ul&gt;
+      &lt;li&gt;the algorithm will grow linearly with its input size&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;O(N^2): a quadratic-time method
+    &lt;ul&gt;
+      &lt;li&gt;the algorithm will execute proportional to the square of the size of its input data&lt;/li&gt;
+      &lt;li&gt;nested iterations will be O(N^3) or O(N^4)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;O(2^N): exponential-time method
+    &lt;ul&gt;
+      &lt;li&gt;execution time will double with each additional element in the input data&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;O(log N): logarithmic-time method&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bigocheatsheet.com/&quot;&gt;Big O Cheat Sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/&quot;&gt;Biginner’s guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Big_O_notation&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jul 2015 17:00:00 -0700</pubDate>
         <link>http://dianpan.github.io/w8-big-O</link>
@@ -176,7 +210,7 @@
     
       <item>
         <title>Ruby data structures</title>
-        <description>&lt;p&gt;We’ve finally started learning a language - Ruby&lt;/p&gt;
+        <description>
 </description>
         <pubDate>Sun, 31 May 2015 17:00:00 -0700</pubDate>
         <link>http://dianpan.github.io/w3-ruby-data-structures</link>

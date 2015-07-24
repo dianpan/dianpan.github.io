@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Big O Complexity and Notation</title>
-  <meta name="description" content="Phase 0, week 8">
+  <title>An Intro to Big O Notation </title>
+  <meta name="description" content="Big O notation is used to classify algorithms by how their runtime changes relative to the input, as the input grows arbitrarily large. Runtime is defined by...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://dianpan.github.io/w8-big-O">
@@ -65,13 +65,47 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Big O Complexity and Notation</h1>
+    <h1 class="post-title">An Intro to Big O Notation </h1>
     <p class="post-meta">Jul 12, 2015</p>
   </header>
 
   <article class="post-content">
-    <h1 id="phase-0-week-8">Phase 0, week 8</h1>
+    <p>Big O notation is used to classify algorithms by how their runtime changes relative to the input, as the input grows arbitrarily large. Runtime is defined by time and space complexity.</p>
 
+<p>Below are some common run times:</p>
+
+<ul>
+  <li>O(1): a constant-time method
+    <ul>
+      <li>the algorithm will always execute in the same time regardless of its input size.</li>
+    </ul>
+  </li>
+  <li>O(N): a linear-time method
+    <ul>
+      <li>the algorithm will grow linearly with its input size</li>
+    </ul>
+  </li>
+  <li>O(N^2): a quadratic-time method
+    <ul>
+      <li>the algorithm will execute proportional to the square of the size of its input data</li>
+      <li>nested iterations will be O(N^3) or O(N^4)</li>
+    </ul>
+  </li>
+  <li>O(2^N): exponential-time method
+    <ul>
+      <li>execution time will double with each additional element in the input data</li>
+    </ul>
+  </li>
+  <li>O(log N): logarithmic-time method</li>
+</ul>
+
+<p><strong>References</strong>:</p>
+
+<p><a href="http://bigocheatsheet.com/">Big O Cheat Sheet</a></p>
+
+<p><a href="https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/">Biginner’s guide</a></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Big_O_notation">Wikipedia</a></p>
 
   </article>
 
