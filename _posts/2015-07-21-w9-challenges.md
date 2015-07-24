@@ -4,7 +4,7 @@ title:  "Ruby Challenges"
 date:   2015-07-22 00:00:00
 categories: phase0
 ---
-`Write a method to check if a number is a part of the Fibonacci sequence`
+**Write a method to check if a number is a part of the Fibonacci sequence.**
 
 # Pseudocode
 - Input: a number

@@ -5,13 +5,13 @@
     <description>a fun little blog about learning to code.</description>
     <link>http://dianpan.github.io/</link>
     <atom:link href="http://dianpan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 21:17:37 -0700</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 21:17:37 -0700</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2015 21:46:06 -0700</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2015 21:46:06 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Syntactically Awesome Style Sheets</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg&quot; alt=&quot;Sass&quot; style=&quot;width: 300px; height: 250px;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg&quot; alt=&quot;Sass&quot; style=&quot;width: 250px; height: 250px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In week 2 of DBC, we were asked to code a website from scratch using HTML and CSS.  That was probably the most frustrating week of my life (&lt;em&gt;dramatic&lt;/em&gt; I know) mostly due to CSS being horribly painful to a new coder. Especially if you’re just mucking around not really knowing how to structure your CSS or what best practices to follow. Now that I’m in week 9, &lt;em&gt;and the last week of Phase 0&lt;/em&gt;, we were asked to refactor our sites using a framework like &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; or &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;.  I chose to redo my site pulling in the Jekyll framework.  Why Jekyll is awesome will come in a different blog post, but through Jekyll I came upon a sexy little CSS compiler called &lt;em&gt;Sass&lt;/em&gt;.  Which has helped me remember why I love web design again.&lt;/p&gt;
 
@@ -42,7 +42,7 @@
     
       <item>
         <title>Ruby Challenges</title>
-        <description>&lt;p&gt;&lt;code&gt;Write a method to check if a number is a part of the Fibonacci sequence&lt;/code&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Write a method to check if a number is a part of the Fibonacci sequence.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;pseudocode&quot;&gt;Pseudocode&lt;/h1&gt;
 &lt;ul&gt;
@@ -87,7 +87,7 @@
     
       <item>
         <title>An Intro to Big O Notation </title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://therecyclebin.files.wordpress.com/2008/05/time-complexity.png&quot; alt=&quot;Big-O chart&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;http://therecyclebin.files.wordpress.com/2008/05/time-complexity.png&quot; alt=&quot;big o&quot; style=&quot;width: 502px; height: 236px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Big O notation is used to classify algorithms by how their runtime changes relative to the input, as the input grows arbitrarily large. Runtime is defined by time and space complexity.&lt;/p&gt;
 
@@ -147,15 +147,18 @@
     
       <item>
         <title>Ruby vs Javascript</title>
-        <description>&lt;p&gt;This week we started learning about Javascript. Identify one fundamental difference between how Ruby and JavaScript do something, and teach your audience about it. There are many ways you can look at this. Here are some ideas:
-Some big topics to go over:&lt;/p&gt;
+        <description>&lt;p&gt;This week we got our feet wet with Javascript.  I had a little bit of history with JS already, it was the first language I dabbled in, so I have a soft spot for JS. Now that I have a few weeks of Ruby under my belt, it’s a good time to compare the two languages.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Ruby Hashes vs. JavaScript Objects&lt;/p&gt;
+    &lt;p&gt;Ruby Hashes vs. JavaScript Objects
+The minute I saw a Ruby hash I was reminded for JS objects.
+Ruby in a sense is a&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Ruby classes vs. JavaScript constructor functions&lt;/p&gt;
+    &lt;p&gt;Ruby classes vs. JavaScript constructor functions
+Ruby classes are fantastic
+JS doesn’t have any classes, objects are&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 </description>
@@ -245,7 +248,12 @@ Some big topics to go over:&lt;/p&gt;
     
       <item>
         <title>A deeper look into CSS</title>
-        <description>&lt;p&gt;This week we coded a static website from scratch using HTML and CSS and hosted that on Github pages.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;img center&quot; src=&quot;http://mlkshk.com/r/PPML&quot; alt=&quot;css sucks&quot; style=&quot;width: 248px; height: 186px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week we coded a static website from scratch using HTML and CSS and hosted that on Github pages.&lt;/p&gt;
+
+&lt;p&gt;I was a grumpy cat this week.&lt;/p&gt;
+
 </description>
         <pubDate>Sat, 23 May 2015 17:00:00 -0700</pubDate>
         <link>http://dianpan.github.io/w2-css</link>
