@@ -5,8 +5,8 @@
     <description>a fun little blog about learning to code.</description>
     <link>http://dianpan.github.io/</link>
     <atom:link href="http://dianpan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 21:46:06 -0700</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 21:46:06 -0700</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2015 14:14:50 -0700</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2015 14:14:50 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -209,11 +209,40 @@ JS doesn’t have any classes, objects are&lt;/p&gt;
     
       <item>
         <title>Ruby Classes</title>
-        <description>
+        <description>&lt;p&gt;Handy little cheat sheet on Ruby classes vs modules, courtesy of
+&lt;a href=&quot;http://stackoverflow.com/questions/151505/difference-between-a-class-and-a-module&quot;&gt;stackoverflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;../imgs/ruby-class-vs-module.png&quot; alt=&quot;ruby class vs module&quot; style=&quot;width: 464px; height: 392px;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jun 2015 17:00:00 -0700</pubDate>
         <link>http://dianpan.github.io/w5-ruby-classes</link>
         <guid isPermaLink="true">http://dianpan.github.io/w5-ruby-classes</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>My Thinking Style</title>
+        <description>&lt;p&gt;Going through an intensive bootcamp where the pressure to absorb as much information as possible is high and time is low, it’s important to understand the best way I learn so that I can adapt appropriately.&lt;/p&gt;
+
+&lt;p&gt;I took Anthony Gregorc’s &lt;a href=&quot;&amp;quot;http://www.thelearningweb.net/personalthink.html&amp;quot;&quot;&gt;quiz&lt;/a&gt; to learn about my learning style.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Results&lt;/strong&gt;
+I lean heavily towards a &lt;em&gt;Concrete Random&lt;/em&gt; thinker, followed closely by &lt;em&gt;Abstract Random&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This makes sense, why I’m natually attracted to methodical people, because I lack that intuition.  Why I’ve gotten a lot of feedback when I first started coding, that I was “all over the place.”&lt;/p&gt;
+
+&lt;p&gt;I care deeply about doing, hacking, producing results, getting shit done.&lt;/p&gt;
+
+&lt;p&gt;BUT I despise working on things that I have no emotional attachment to. For example, our solo coding projects involved implementing BINGO boards and win logic. I’m pretty sure I didn’t even play BINGO growing up and I had no interest whatsoever in creating that game.  On the other hand, I dedicated myself fully in group projects with my Accountability Group, and poured hours refactoring my website, first to make it mobile responsive and second to implement the Jekyll framework.&lt;/p&gt;
+
+&lt;p&gt;My challenge going into Phase 1, is finding a way to attach passion and emotion to projects that I initally find boring.  I think working with other people in a group setting will inspire more interest than working remotely in Phase 0.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Jun 2015 17:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w4-thinking-style</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w4-thinking-style</guid>
         
         
         <category>phase0</category>
@@ -234,30 +263,15 @@ JS doesn’t have any classes, objects are&lt;/p&gt;
       </item>
     
       <item>
-        <title>Ruby data structures</title>
-        <description>
+        <title>Introducing Ruby</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://www.unixstickers.com/image/cache/data/stickers/ruby/ruby.sh-600x600.png&quot; alt=&quot;ruby&quot; style=&quot;width: 150px; height: 150px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ruby was released in 1995 by Yukihiro Matsumoto
+Inspired by Perl, Smalltalk, Eiffel, Ada&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 May 2015 17:00:00 -0700</pubDate>
-        <link>http://dianpan.github.io/w3-ruby-data-structures</link>
-        <guid isPermaLink="true">http://dianpan.github.io/w3-ruby-data-structures</guid>
-        
-        
-        <category>phase0</category>
-        
-      </item>
-    
-      <item>
-        <title>A deeper look into CSS</title>
-        <description>&lt;p&gt;&lt;img class=&quot;img center&quot; src=&quot;http://mlkshk.com/r/PPML&quot; alt=&quot;css sucks&quot; style=&quot;width: 248px; height: 186px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This week we coded a static website from scratch using HTML and CSS and hosted that on Github pages.&lt;/p&gt;
-
-&lt;p&gt;I was a grumpy cat this week.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 23 May 2015 17:00:00 -0700</pubDate>
-        <link>http://dianpan.github.io/w2-css</link>
-        <guid isPermaLink="true">http://dianpan.github.io/w2-css</guid>
+        <pubDate>Tue, 02 Jun 2015 00:00:00 -0700</pubDate>
+        <link>http://dianpan.github.io/w3-ruby-fundamentals</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w3-ruby-fundamentals</guid>
         
         
         <category>phase0</category>
