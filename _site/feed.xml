@@ -5,8 +5,8 @@
     <description>a fun little blog about learning to code.</description>
     <link>http://dianpan.github.io/</link>
     <atom:link href="http://dianpan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Jul 2015 14:14:50 -0700</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2015 14:14:50 -0700</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2015 22:29:41 -0400</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2015 22:29:41 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -31,54 +31,9 @@
 
 &lt;p&gt;&lt;em&gt;I will be adding more…&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 22 Jul 2015 00:00:00 -0700</pubDate>
+        <pubDate>Wed, 22 Jul 2015 00:00:00 -0400</pubDate>
         <link>http://dianpan.github.io/w9-sass</link>
         <guid isPermaLink="true">http://dianpan.github.io/w9-sass</guid>
-        
-        
-        <category>phase0</category>
-        
-      </item>
-    
-      <item>
-        <title>Ruby Challenges</title>
-        <description>&lt;p&gt;&lt;strong&gt;Write a method to check if a number is a part of the Fibonacci sequence.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;pseudocode&quot;&gt;Pseudocode&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Input: a number&lt;/li&gt;
-  &lt;li&gt;Output: a method to check if that number is part of the fibonacci sequence arr. Return true or false&lt;/li&gt;
-  &lt;li&gt;Fibonacci numbers ie:&lt;/li&gt;
-  &lt;li&gt;[0,1,1,2,3,5,8,13,21,34,55,89,144]&lt;/li&gt;
-  &lt;li&gt;each number is the sum of the previous 2&lt;/li&gt;
-  &lt;li&gt;numbers, starting with [0,1] as the first 2 numbers&lt;/li&gt;
-  &lt;li&gt;f(n+1) = f(n) + f(n-1)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;initial-solution&quot;&gt;Initial Solution&lt;/h1&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_fibonacci?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;
- &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;refactored-solution&quot;&gt;Refactored Solution&lt;/h1&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_fibonacci?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;previous&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;is_fibonacci?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;previous&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Tue, 21 Jul 2015 17:00:00 -0700</pubDate>
-        <link>http://dianpan.github.io/w9-challenges</link>
-        <guid isPermaLink="true">http://dianpan.github.io/w9-challenges</guid>
         
         
         <category>phase0</category>
@@ -126,7 +81,49 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[&lt;em&gt;examples coming soon&lt;/em&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;
+I’m told that a common interview question involves checking if a number is a part of the Fibonacci sequence.   There are many ways to implement this method, but ideally we’d want to implement Fibonacci in the most efficient way. 3 examples below:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Write a method to check if a number is a part of the Fibonacci sequence.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;pseudocode&quot;&gt;Pseudocode&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Input: a number&lt;/li&gt;
+  &lt;li&gt;Output: a method to check if that number is part of the fibonacci sequence arr. Return true or false&lt;/li&gt;
+  &lt;li&gt;Fibonacci numbers: [0,1,1,2,3,5,8,13,21,34,55,89,144]&lt;/li&gt;
+  &lt;li&gt;each number is the sum of the previous 2&lt;/li&gt;
+  &lt;li&gt;start with [0,1] as the first 2 numbers&lt;/li&gt;
+  &lt;li&gt;f(n+1) = f(n) + f(n-1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;solution-a&quot;&gt;Solution A&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_fibonacci?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Big O notation:&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;solution-b&quot;&gt;Solution B&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_fibonacci?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;previous&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;is_fibonacci?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;previous&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Big O notation:&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;solution-c&quot;&gt;Solution C&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Big O notation:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Which implementation is the most efficient?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;:&lt;/p&gt;
 
@@ -136,7 +133,7 @@
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Big_O_notation&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 12 Jul 2015 17:00:00 -0700</pubDate>
+        <pubDate>Sun, 12 Jul 2015 20:00:00 -0400</pubDate>
         <link>http://dianpan.github.io/w8-big-O</link>
         <guid isPermaLink="true">http://dianpan.github.io/w8-big-O</guid>
         
@@ -151,18 +148,14 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Ruby Hashes vs. JavaScript Objects
-The minute I saw a Ruby hash I was reminded for JS objects.
-Ruby in a sense is a&lt;/p&gt;
+    &lt;p&gt;Ruby Hashes vs. JavaScript Objects&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Ruby classes vs. JavaScript constructor functions
-Ruby classes are fantastic
-JS doesn’t have any classes, objects are&lt;/p&gt;
+    &lt;p&gt;Ruby classes vs. JavaScript constructor functions&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Sun, 05 Jul 2015 17:00:00 -0700</pubDate>
+        <pubDate>Sun, 05 Jul 2015 20:00:00 -0400</pubDate>
         <link>http://dianpan.github.io/w7-js</link>
         <guid isPermaLink="true">http://dianpan.github.io/w7-js</guid>
         
@@ -185,7 +178,7 @@ JS doesn’t have any classes, objects are&lt;/p&gt;
 
 &lt;p&gt;To be clear, I don’t think I’m bad at math, I was just way more interested in things like music, reading and writing. But I do think growing up with those fixed beliefs kept me away from STEM majors in college. Which is why, it’s pretty [ironic, funny, awesome] that I am now leaving my nice Marketing gig to pursue code. I think that act in of itself is breaking down some of my own stereotype threats. I’m looking forward to continuing this story once I finish DBC and start a new career in web development!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 22 Jun 2015 15:08:40 -0700</pubDate>
+        <pubDate>Mon, 22 Jun 2015 18:08:40 -0400</pubDate>
         <link>http://dianpan.github.io/w6-identifying-stereotype-threats</link>
         <guid isPermaLink="true">http://dianpan.github.io/w6-identifying-stereotype-threats</guid>
         
@@ -196,9 +189,9 @@ JS doesn’t have any classes, objects are&lt;/p&gt;
     
       <item>
         <title>Object Oriented Programming</title>
-        <description>
+        <description>&lt;p&gt;S.O.L.I.D is an acronym for the first five object-oriented design(OOD) principles by Robert C. Martin, popularly known as Uncle Bob.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 21 Jun 2015 17:00:00 -0700</pubDate>
+        <pubDate>Sun, 21 Jun 2015 20:00:00 -0400</pubDate>
         <link>http://dianpan.github.io/w6-object-oriented-programming</link>
         <guid isPermaLink="true">http://dianpan.github.io/w6-object-oriented-programming</guid>
         
@@ -214,7 +207,7 @@ JS doesn’t have any classes, objects are&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;../imgs/ruby-class-vs-module.png&quot; alt=&quot;ruby class vs module&quot; style=&quot;width: 464px; height: 392px;&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 14 Jun 2015 17:00:00 -0700</pubDate>
+        <pubDate>Sun, 14 Jun 2015 20:00:00 -0400</pubDate>
         <link>http://dianpan.github.io/w5-ruby-classes</link>
         <guid isPermaLink="true">http://dianpan.github.io/w5-ruby-classes</guid>
         
@@ -229,7 +222,43 @@ JS doesn’t have any classes, objects are&lt;/p&gt;
 
 &lt;p&gt;I took Anthony Gregorc’s &lt;a href=&quot;&amp;quot;http://www.thelearningweb.net/personalthink.html&amp;quot;&quot;&gt;quiz&lt;/a&gt; to learn about my learning style.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Results&lt;/strong&gt;
+&lt;p&gt;Here’s a short explanation of each thinking styles:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Concrete sequential thinkers are based in reality, according to SuperCamp co-founder and president
+Bobbi DePorter. They process information in an ordered, sequential, linear way. To them, “reality consists of what they can detect through their physical sense of sight, touch, sound, taste and smell. They notice and
+recall details easily and remember facts specific information, formulas and rules with ease. ‘Hands on’ is a
+good way for these people to learn.” If you’re concrete sequential—a CS—build on your organisational
+strengths. Provide yourself with details. Break your projects down into specific steps. Set up quiet work
+environments.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Concrete random thinkers are experimenters. says DePorter: “Like concrete sequentials, they’re based in
+reality, but are willing to take more of a trial-and-error approach. Because of this, they often make the
+intuitive leaps necessary for true creative thought. They have a strong need to find alternatives and do things
+in their own way.” If you’re a CR, use your divergent thinking ability. Believe that it’s good to see things from
+more than one viewpoint. Put yourself in a position to solve problems. But give yourself deadlines. Accept
+your need for change. Try and work with people who value divergent thinking.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Abstract random thinkers organise information through reflection, and thrive in unstructured,
+people-oriented environments. Says DePorter: “The ‘real’ world for abstract random learners is the world of
+feelings and emotions. The AR’s mind absorbs ideas, information and impressions and organises them
+through reflection. They remember best if information is personalised. They feel constricted when they’re
+subjected to a very structured environment.” If you’re an AR, use your natural ability to work with others.
+Recognise how strongly emotions influence your concentration. Build on your strength of learning by
+association. Look at the big picture first. Be careful to allow enough time to finish the job. Remind yourself to
+do things through plenty of visual clues, such as coloured stickers pasted up where you’ll see them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Abstract sequential thinkers love the world of theory and abstract thought. They like to think in concepts
+and analyse information. They make great philosophers and research scientists. DePorter again: “It’s easy
+for them to zoom in on what’s important, such as key points and significant details. Their thinking processes
+are logical, rational and intellectual. A favourite activity for abstract sequentials is reading, and when a
+project needs to be researched they are very thorough at it. Generally they prefer to work alone rather than
+in groups.” If you’re an AS, give yourself exercises in logic. Feed your intellect. Steer yourself toward highly
+structured situations.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;My Results:&lt;/strong&gt;
 I lean heavily towards a &lt;em&gt;Concrete Random&lt;/em&gt; thinker, followed closely by &lt;em&gt;Abstract Random&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;This makes sense, why I’m natually attracted to methodical people, because I lack that intuition.  Why I’ve gotten a lot of feedback when I first started coding, that I was “all over the place.”&lt;/p&gt;
@@ -239,8 +268,11 @@ I lean heavily towards a &lt;em&gt;Concrete Random&lt;/em&gt; thinker, followed 
 &lt;p&gt;BUT I despise working on things that I have no emotional attachment to. For example, our solo coding projects involved implementing BINGO boards and win logic. I’m pretty sure I didn’t even play BINGO growing up and I had no interest whatsoever in creating that game.  On the other hand, I dedicated myself fully in group projects with my Accountability Group, and poured hours refactoring my website, first to make it mobile responsive and second to implement the Jekyll framework.&lt;/p&gt;
 
 &lt;p&gt;My challenge going into Phase 1, is finding a way to attach passion and emotion to projects that I initally find boring.  I think working with other people in a group setting will inspire more interest than working remotely in Phase 0.&lt;/p&gt;
+
+&lt;p&gt;Reference:
+&lt;a href=&quot;https://aae.boisestate.edu/wp-content/uploads/2013/03/Anthony-Gregorc-4-Mind-Styles.pdf&quot;&gt;4 thinking styles&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 09 Jun 2015 17:00:00 -0700</pubDate>
+        <pubDate>Tue, 09 Jun 2015 20:00:00 -0400</pubDate>
         <link>http://dianpan.github.io/w4-thinking-style</link>
         <guid isPermaLink="true">http://dianpan.github.io/w4-thinking-style</guid>
         
@@ -253,7 +285,7 @@ I lean heavily towards a &lt;em&gt;Concrete Random&lt;/em&gt; thinker, followed 
         <title>Ruby Enumerable Methods</title>
         <description>
 </description>
-        <pubDate>Sun, 07 Jun 2015 17:00:00 -0700</pubDate>
+        <pubDate>Sun, 07 Jun 2015 20:00:00 -0400</pubDate>
         <link>http://dianpan.github.io/ruby-enumerable-methods</link>
         <guid isPermaLink="true">http://dianpan.github.io/ruby-enumerable-methods</guid>
         
@@ -269,9 +301,27 @@ I lean heavily towards a &lt;em&gt;Concrete Random&lt;/em&gt; thinker, followed 
 &lt;p&gt;Ruby was released in 1995 by Yukihiro Matsumoto
 Inspired by Perl, Smalltalk, Eiffel, Ada&lt;/p&gt;
 </description>
-        <pubDate>Tue, 02 Jun 2015 00:00:00 -0700</pubDate>
+        <pubDate>Tue, 02 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://dianpan.github.io/w3-ruby-fundamentals</link>
         <guid isPermaLink="true">http://dianpan.github.io/w3-ruby-fundamentals</guid>
+        
+        
+        <category>phase0</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby data structures: arrays and hashes</title>
+        <description>&lt;h1 id=&quot;arrays&quot;&gt;Arrays&lt;/h1&gt;
+&lt;p&gt;Creating arrays
+Sorting and comparison
+Iteration&lt;/p&gt;
+
+&lt;h1 id=&quot;hashes&quot;&gt;Hashes&lt;/h1&gt;
+</description>
+        <pubDate>Sun, 31 May 2015 20:00:00 -0400</pubDate>
+        <link>http://dianpan.github.io/w3-ruby-data-structures</link>
+        <guid isPermaLink="true">http://dianpan.github.io/w3-ruby-data-structures</guid>
         
         
         <category>phase0</category>
