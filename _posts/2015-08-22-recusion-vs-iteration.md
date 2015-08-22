@@ -10,7 +10,8 @@ One of my favorite challenges from Week 1 at DBC was looking at pros and cons of
 
 Lets use the classic - calculate the nth number of the Fibonacci sequence as an example:
 
-## Fibonacci - iterative
+**Fibonacci - iterative**
+
 {% highlight ruby %}
 def fibonacci_iterative(n)
   array =[0,1]
@@ -21,7 +22,8 @@ def fibonacci_iterative(n)
 end
 {% endhighlight %}
 
-## Fibonacci - recursive
+**Fibonacci - recursive**
+
 {% highlight ruby %}
 def fibonacci_recursive(n)
   return n if [0,1].include? n
@@ -43,7 +45,8 @@ As you can see, my recursive solution performs far worse in terms of runtime tha
 What if instead we tell our method to remember the results of our earlier calculations? That's the concept behind Memoization.  We can create an empty hash to store temporary results and have our program check if that calculation has been done already.  If it has, we can just pull the stored result.
 
 Refactoring our recursive solution:
-## Fibonacci recursive - refactored
+
+**Fibonacci recursive - refactored**
 
 {% highlight ruby %}
 CACHE = {}
