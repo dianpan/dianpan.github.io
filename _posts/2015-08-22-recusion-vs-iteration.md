@@ -6,9 +6,11 @@ categories: phase1 recursion
 ---
 <img class="center" src="https://s-media-cache-ak0.pinimg.com/236x/06/53/2c/06532c1162edee91df1ee1b2d7c296dc.jpg" alt="recursive cat nap" style="width: 236px; height: 191px;"/>
 
-I want to dive deeper into implementing a program iteratively vs recursively. Again, using the classic Fibonacci method that calculates the nth number of the Fibonacci sequence as example:
+One of my favorite challenges from Week 1 at DBC was looking at pros and cons of writing a program iteratively vs recursively. So naturally I had to blog about it.
 
-# Fibonacci - iterative
+Lets use the classic - calculate the nth number of the Fibonacci sequence as an example:
+
+## Fibonacci - iterative
 {% highlight ruby %}
 def fibonacci_iterative(n)
   array =[0,1]
@@ -19,7 +21,7 @@ def fibonacci_iterative(n)
 end
 {% endhighlight %}
 
-# Fibonacci - recursive
+## Fibonacci - recursive
 {% highlight ruby %}
 def fibonacci_recursive(n)
   return n if [0,1].include? n
@@ -41,7 +43,8 @@ As you can see, my recursive solution performs far worse in terms of runtime tha
 What if instead we tell our method to remember the results of our earlier calculations? That's the concept behind Memoization.  We can create an empty hash to store temporary results and have our program check if that calculation has been done already.  If it has, we can just pull the stored result.
 
 Refactoring our recursive solution:
-# Fibonacci recursive - refactored
+## Fibonacci recursive - refactored
+
 {% highlight ruby %}
 CACHE = {}
 def memoized_fibonacci(n)
@@ -61,8 +64,6 @@ puts Benchmark.measure{memoized_fibonacci(20)}
 OH YEAH!
 <img class="center" src="http://33.media.tumblr.com/744bc9d8a1d582dc4695c2d65cf644a3/tumblr_msm0hwcecS1rdzuduo7_400.gif" alt="happy dance" style="width: 350px; height: 197px;"/>
 
-
-**This was one of my favorite challenges from Week 1 at DBC, so naturally I had to blog about it.**
 
 **References**:
 
