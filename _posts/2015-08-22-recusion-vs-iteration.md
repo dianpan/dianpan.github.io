@@ -4,7 +4,7 @@ title:  "Iteration vs Recursion vs Memoization, lets Benchmark it!"
 date:   2015-08-22 00:00:00
 categories: phase1 recursion
 ---
-<img class="center" src="https://s-media-cache-ak0.pinimg.com/236x/06/53/2c/06532c1162edee91df1ee1b2d7c296dc.jpg" alt="recursive cat nap" style="width: 236px; height: 191px;"/>
+<img class="img center" src="https://s-media-cache-ak0.pinimg.com/236x/06/53/2c/06532c1162edee91df1ee1b2d7c296dc.jpg" alt="recursive cat nap" style="width: 236px; height: 191px;"/>
 
 One of my favorite challenges from Week 1 at DBC was looking at pros and cons of writing a program iteratively vs recursively. So naturally I had to blog about it.
 
