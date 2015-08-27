@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A peek under the hood of Ruby's enumerable methods"
+title:  "Behind the scenes: Ruby enumerable methods"
 date:   2015-08-23 00:00:00
 categories: phase1 enumerable
 ---
