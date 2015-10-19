@@ -9,7 +9,7 @@ permalink: /projects/
   <ul class="post-list">
       <li>
         <p>
-          <a class="post-link" href="http://dianpan.github.io/cheat-sheet/">Cheat Sheet</a>
+          <a class="post-link" href="http://caniaffordthis.herokuapp.com">Can I Afford This</a>
         </p>
       </li>
 
