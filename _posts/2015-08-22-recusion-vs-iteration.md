@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Iteration vs Recursion vs Memoization, lets Benchmark it!"
+title:  "Iteration vs Recursion, lets Benchmark it!"
 date:   2015-08-22 00:00:00
 categories: phase1 recursion
 ---
