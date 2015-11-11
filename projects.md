@@ -13,6 +13,11 @@ permalink: /projects/
         </p>
       </li>
 
+      <li>
+        <p>
+          <a class="post-link" href="http://caniaffordthis.herokuapp.com">Pique.it</a>
+        </p>
+      </li>
   </ul>
 
 </div>

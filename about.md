@@ -9,5 +9,5 @@ permalink: /about/
   <br>
 </div>
 
-<h4 class="center-text">This is a fun little blog documenting my transition from marketing to full stack development.
+<h4 class="center-text">Curious, creative, life-longer learner.  3 months ago, I quit my job in Marketing to pursue coding through Dev Bootcamp and I haven't looked back since. This is a fun little blog documenting my transition from marketing to full stack development.
 </h4>
