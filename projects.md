@@ -10,8 +10,8 @@ permalink: /projects/
       <li>
         <p>
           <img class="center" src="../imgs/caniaffordthis-homepage.png" alt="Can I Afford This" style="width: 538px; height: 369px;"/>
-
-          <a class="post-link" href="http://caniaffordthis.herokuapp.com">Can I Afford This</a>
+          <br>
+          <a class="post-link" href="http://caniaffordthis.herokuapp.com">Can I Afford This</a> | <a class="post-link" href="http://caniaffordthis.herokuapp.com">Github</a>
         </p>
       </li>
   </ul>
