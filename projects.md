@@ -12,12 +12,6 @@ permalink: /projects/
           <a class="post-link" href="http://caniaffordthis.herokuapp.com">Can I Afford This</a>
         </p>
       </li>
-
-      <li>
-        <p>
-          <a class="post-link" href="http://caniaffordthis.herokuapp.com">Pique.it</a>
-        </p>
-      </li>
   </ul>
 
 </div>
