@@ -6,15 +6,11 @@
 .nav {
   display: flex;
   flex-direction: column;
+  background-color: #0b0b0b;
 }
 
 .main-header {
   padding-top: 1em;
-}
-
-.site-logo {
-  width: 110px;
-  align-self: center;
 }
 
 .nav {
@@ -28,12 +24,10 @@
   font-weight: 300;
   text-align: center;
   padding: .4em;
-  border-bottom: 1px solid #ebecec;
 }
 
 .nav a:hover {
-  color: #0b0b0b;
-  border-bottom-color: #52bab3;
+  color: #FFFFFF;
 }
 
 /* --------------------------
