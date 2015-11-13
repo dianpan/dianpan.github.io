@@ -135,203 +135,14 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #F83E89;
 }
 
-/* --------------------------
-  Header
---------------------------- */
-.menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 8999;
-    background: rgba(136,246,0,0.8);
-    display: table;
-    opacity: 1;
-    visibility: visible;
-    -webkit-transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
-       -moz-transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
-         -o-transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
-            transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
-}
-
-.menu.visuallyhidden {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.menu ul {
-    width: 100%;
-    /*height: 100%;*/
-    text-align: left;
-    padding-top: 130px;
-}
-
-.menu ul li a {
-    display: block;
-    color: #000;
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    font-size: 2.25rem;
-    font-size: 27px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    padding: 18px 0 18px 45px;
-
-    -webkit-transition: background 0.2s ease, color 0.2s ease;
-       -moz-transition: background 0.2s ease, color 0.2s ease;
-         -o-transition: background 0.2s ease, color 0.2s ease;
-            transition: background 0.2s ease, color 0.2s ease;
-}
-
-.menu ul li a:hover {
-    color: #F10061;
-    background-color: #fff;
-}
-
-.menu-icon {
-    width: 63px;
-    height: 63px;
-    display: inline-block;
-    position: fixed;
-    top: 45px;
-    left: 45px;
-    cursor: pointer;
-    z-index: 9999;
-
-    -webkit-transition: opacity 0.2s 1.6s ease-out;
-       -moz-transition: opacity 0.2s 1.6s ease-out;
-         -o-transition: opacity 0.2s 1.6s ease-out;
-            transition: opacity 0.2s 1.6s ease-out;
-}
-
-.menu-icon.jiji {
-    opacity: 0;
-}
-
-.menu-icon span {
-    width: 41px;
-    height: 2px;
-    position: relative;
-    display: inline-block;
-    background: #F10061;
-
-    -webkit-transition: background 0.4s ease-out;
-       -moz-transition: background 0.4s ease-out;
-         -o-transition: background 0.4s ease-out;
-            transition: background 0.4s ease-out;
-}
-
-.menu-icon span:before {
-    top: 9px;
-}
-
-.menu-icon span:before,
-.menu-icon span:after {
-    width: 41px;
-    height: 2px;
-    display: inline-block;
-    background: #F10061;
-    position: absolute;
-    left: 0;
-    content: "";
-
-    transform-origin: 50% 50%;
-
-    -webkit-transition: top 0.2s 0.2s ease-out,
-    -webkit-transform 0.2s linear;
-
-    -moz-transition: top 0.2s 0.2s ease-out,
-    -moz-transform 0.2s linear;
-
-    -o-transition: top 0.2s 0.2s ease-out,
-    -o-transform 0.2s linear;
-
-    transition: top 0.2s 0.2s ease-out,
-    transform 0.2s -out;
-}
-
-.menu-icon span:after {
-    top: -9px;
-}
-
-.menu-icon.close span {
-    -webkit-transition: background 0.2s ease-out;
-       -moz-transition: background 0.2s ease-out;
-         -o-transition: background 0.2s ease-out;
-            transition: background 0.2s ease-out;
-
-    background-color: transparent;
-}
-
-.menu-icon.close span:before {
-    -webkit-transform: rotate3d(0, 0, 1, 45deg);
-       -moz-transform: rotate3d(0, 0, 1, 45deg);
-         -o-transform: rotate3d(0, 0, 1, 45deg);
-            transform: rotate3d(0, 0, 1, 45deg);
-}
-
-.menu-icon.close span:before,
-.menu-icon.close span:after {
-    -webkit-transition: top 0.2s ease-out,
-    -webkit-transform 0.2s 0.2s ease-out,
-    background 0.2s ease-out;
-
-    -moz-transition: top 0.2s ease-out,
-    -moz-transform 0.2s 0.2s ease-out,
-    background 0.2s ease-out;
-
-    -o-transition: top 0.2s ease-out,
-    -o-transform 0.2s 0.2s ease-out,
-    background 0.2s ease-out;
-
-    transition: top 0.2s ease-out,
-    transform 0.2s 0.2s ease-out,
-    background 0.2s ease-out;
-
-    top: 0;
-    width: 41px;
-    background-color: #000;
-}
-
-.menu-icon.close span:after {
-    -webkit-transform: rotate3d(0, 0, 1, -45deg);
-       -moz-transform: rotate3d(0, 0, 1, -45deg);
-         -o-transform: rotate3d(0, 0, 1, -45deg);
-            transform: rotate3d(0, 0, 1, -45deg);
-}
-
-.menu-icon p {
-    font-size: 1rem;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 18px;
-    display: inline-block;
-    color: #F10061;
-}
-
-/*.menu-icon p:before {
-    content: 'Menu';
-    opacity: 1;
-    -webkit-transition: opacity 0.2s ease-out;
-       -moz-transition: opacity 0.2s ease-out;
-         -o-transition: opacity 0.2s ease-out;
-            transition: opacity 0.2s ease-out;
-}
-
-.menu-icon.close p:before {
-    content: 'Menu';
-    opacity: 0;
-}*/
-
 
 /* --------------------------
-  All Sections
+  Sections
 --------------------------- */
 
 #about,
-#services,
-#work,
+#skills,
+#project,
 #contact {
     text-align: center;
     overflow: hidden;
@@ -339,8 +150,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .about-content h3,
-.services-content h3,
-.work-content h3,
+.skills-content h3,
+.project-content h3,
 .contact-content h3,
 .footer h3 {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -354,8 +165,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .about-content p,
-.services-content p,
-.work-content p,
+.skills-content p,
+.project-content p,
 .contact-content p,
 .footer p {
     font-size: 1.125rem;
@@ -445,30 +256,29 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 90px;
 }
 
-
 /* --------------------------
   Skills
 --------------------------- */
 
-#services {
+#skills {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #fff;
     color: #b0b0b0;
 }
 
-.services-content {
+.skills-content {
     padding-bottom: 150px;
 }
 
-.services-content ul li {
+.skills-content ul li {
     font-size: 1.125rem;
     font-size: 18px;
     line-height: 2.25rem;
     line-height: 36px;
 }
 
-.services-content ul li:first-child {
+.skills-content ul li:first-child {
     font-size: 1rem;
     font-size: 16px;
     font-weight: 400;
@@ -481,15 +291,15 @@ h1, h2, h3, h4, h5, h6, p {
 /* --------------------------
   Projects
 --------------------------- */
-#work {
+#project {
     background-color: #fff;
 }
 
-.work-examples {
+.project-examples {
     margin-top: 90px;
 }
 
-.work-item {
+.project-item {
     max-height: 250px;
     cursor: pointer;
     margin-bottom: 24px;
@@ -498,7 +308,7 @@ h1, h2, h3, h4, h5, h6, p {
     overflow: hidden;
 }
 
-.work-item img {
+.project-item img {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -507,7 +317,7 @@ h1, h2, h3, h4, h5, h6, p {
     vertical-align: middle;
 }
 
-.work-item-inside {
+.project-item-inside {
     background-color: rgba(0, 0, 0, 1);
     color: #fff;
     display: block;
@@ -526,12 +336,12 @@ h1, h2, h3, h4, h5, h6, p {
             transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
 }
 
-.work-item-inside.visuallyshowed {
+.project-item-inside.visuallyshowed {
     opacity: 1;
     visibility: visible;
 }
 
-.work-item-inside h4 {
+.project-item-inside h4 {
     margin-bottom: 27px;
     font-weight: 400;
 }
@@ -693,31 +503,31 @@ h1, h2, h3, h4, h5, h6, p {
         }
 
         #about .empty,
-        #work .empty,
+        #project .empty,
         #contact .empty {
             display: none;
         }
 
         .about-title h3,
-        .work-title h3,
+        .project-title h3,
         .contact-title h3,
         .menu ul li a {
             font-size: 1.3125rem;
             font-size: 21px;
         }
 
-        .services-content ul li {
+        .skills-content ul li {
             font-size: 1rem;
             font-size: 16px;
             line-height: 1.875rem;
             line-height: 30px;
         }
 
-        .services-content ul {
+        .skills-content ul {
             margin-bottom: 60px;
         }
 
-        .services-team ul {
+        .skills-team ul {
             margin-bottom: 0;
         }
 
@@ -763,12 +573,12 @@ h1, h2, h3, h4, h5, h6, p {
         .home-title,
         .about-title,
         .about-description,
-        .services-design,
-        .services-frontend,
-        .services-team,
-        .work-title,
-        .work-description,
-        .work-item,
+        .skills-design,
+        .skills-frontend,
+        .skills-team,
+        .project-title,
+        .project-description,
+        .project-item,
         .contact-title,
         .contact-description,
         .f1 {
@@ -833,31 +643,31 @@ h1, h2, h3, h4, h5, h6, p {
         }
 
         #about .empty,
-        #work .empty,
+        #project .empty,
         #contact .empty {
             display: none;
         }
 
         .about-title h3,
-        .work-title h3,
+        .project-title h3,
         .contact-title h3,
         .menu ul li a {
             font-size: 1.3125rem;
             font-size: 21px;
         }
 
-        .services-content ul li {
+        .skills-content ul li {
             font-size: 1rem;
             font-size: 16px;
             line-height: 1.875rem;
             line-height: 30px;
         }
 
-        .services-content ul {
+        .skills-content ul {
             margin-bottom: 60px;
         }
 
-        .services-team ul {
+        .skills-team ul {
             margin-bottom: 0;
         }
 
@@ -903,12 +713,12 @@ h1, h2, h3, h4, h5, h6, p {
         .home-title,
         .about-title,
         .about-description,
-        .services-design,
-        .services-frontend,
-        .services-team,
-        .work-title,
-        .work-description,
-        .work-item,
+        .skills-design,
+        .skills-frontend,
+        .skills-team,
+        .project-title,
+        .project-description,
+        .project-item,
         .contact-title,
         .contact-description,
         .f1 {
@@ -960,7 +770,7 @@ h1, h2, h3, h4, h5, h6, p {
         }
 
         .about-title h3,
-        .work-title h3,
+        .project-title h3,
         .contact-title h3,
         .menu ul li a {
             font-size: 1.3125rem;
@@ -980,7 +790,7 @@ h1, h2, h3, h4, h5, h6, p {
             padding: 9px 0 9px 27px;
         }
 
-        .services-content ul li:first-child {
+        .skills-content ul li:first-child {
             font-size: 0.8125rem;
             font-size: 13px;
         }
@@ -990,7 +800,7 @@ h1, h2, h3, h4, h5, h6, p {
         }
         .span_2,
         #about .empty,
-        #work .empty,
+        #project .empty,
         #contact .empty {
             width:16.6666666667%;
         }
@@ -998,16 +808,16 @@ h1, h2, h3, h4, h5, h6, p {
             width:25.0%;
         }
         .span_4,
-        .services-design,
-        .services-frontend,
-        .services-team {
+        .skills-design,
+        .skills-frontend,
+        .skills-team {
             width:33.3333333333%;
         }
         .span_5 {
             width:41.6666666667%;
         }
         .span_6,
-        .work-item {
+        .project-item {
             width:50.0%;
         }
         .span_7 {
@@ -1015,7 +825,7 @@ h1, h2, h3, h4, h5, h6, p {
         }
         .span_8,
         .about-description,
-        .work-description,
+        .project-description,
         .contact-description {
             width:66.6666666667%;
         }
@@ -1031,7 +841,7 @@ h1, h2, h3, h4, h5, h6, p {
         .span_12,
         .home-title,
         .about-title,
-        .work-title,
+        .project-title,
         .contact-title,
         .f1 {
             margin-left:0;
@@ -1069,7 +879,7 @@ h1, h2, h3, h4, h5, h6, p {
         }
         .span_2,
         #about .empty,
-        #work .empty,
+        #project .empty,
         #contact .empty {
             width:16.6666666667%;
         }
@@ -1077,10 +887,10 @@ h1, h2, h3, h4, h5, h6, p {
             width:25.0%;
         }
         .span_4,
-        .services-design,
-        .services-frontend,
-        .services-team,
-        .work-item {
+        .skills-design,
+        .skills-frontend,
+        .skills-team,
+        .project-item {
             width:33.3333333333%;
         }
         .span_5 {
@@ -1094,7 +904,7 @@ h1, h2, h3, h4, h5, h6, p {
         }
         .span_8,
         .about-description,
-        .work-description,
+        .project-description,
         .contact-description {
             width:66.6666666667%;
         }
@@ -1110,7 +920,7 @@ h1, h2, h3, h4, h5, h6, p {
         .span_12,
         .home-title,
         .about-title,
-        .work-title,
+        .project-title,
         .contact-title,
         .f1 {
             margin-left:0;
@@ -1151,15 +961,15 @@ h1, h2, h3, h4, h5, h6, p {
         }
         .span_3,
         #about .empty,
-        #work .empty,
+        #project .empty,
         #contact .empty {
             width:25.0%;
         }
         .span_4,
-        .services-frontend,
-        .services-design,
-        .services-team,
-        .work-item {
+        .skills-frontend,
+        .skills-design,
+        .skills-team,
+        .project-item {
             width:33.3333333333%;
         }
         .span_5 {
@@ -1167,7 +977,7 @@ h1, h2, h3, h4, h5, h6, p {
         }
         .span_6,
         .about-description,
-        .work-description,
+        .project-description,
         .contact-description {
             width:50.0%;
         }
@@ -1189,7 +999,7 @@ h1, h2, h3, h4, h5, h6, p {
         .span_12,
         .home-title,
         .about-title,
-        .work-title,
+        .project-title,
         .contact-title,
         .f1 {
             margin-left:0;
