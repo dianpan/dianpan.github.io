@@ -402,8 +402,8 @@ h1, h2, h3, h4, h5, h6, p {
    ========================================================================== */
 
 #home {
-    background-color: #000;
-    /*background-image: url(../img/bg/trip.jpg);*/
+    /*background-color: #000;*/
+    background-image: url(../imgs/background-6.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -574,13 +574,13 @@ h1, h2, h3, h4, h5, h6, p {
    Contact
    ========================================================================== */
 
-/*.social [class^="icon-"],
+.social [class^="icon-"],
 .social [class*=" icon-"] {
     width: 24px;
     height: 24px;
     display: inline-block;
     margin: 0 18px;
-}*/
+}
 
 .social [class^="icon-"],
 .social [class*=" icon-"] {
