@@ -6,7 +6,7 @@ categories: phase1 recursion
 ---
 <img class="img center" src="https://s-media-cache-ak0.pinimg.com/236x/06/53/2c/06532c1162edee91df1ee1b2d7c296dc.jpg" alt="recursive cat nap" style="width: 236px; height: 191px;"/>
 
-One of my favorite challenges from Week 1 at DBC was looking at pros and cons of writing a program iteratively vs recursively. So naturally I had to blog about it.
+One of my favorite challenges from Week 1 at DBC was looking at pros and cons of writing a method iteratively vs recursively. So naturally I had to blog about it.
 
 Lets use the classic - calculate the nth number of the Fibonacci sequence as an example:
 
@@ -55,7 +55,7 @@ def memoized_fibonacci(n)
 end
 {% endhighlight %}
 
-As you can see, our runtimes are now much more comparable.
+As you can see, our runtimes are now much more comparable!
 
 {% highlight ruby %}
 puts Benchmark.measure{fibonacci_iterative(20)}
@@ -64,7 +64,6 @@ puts Benchmark.measure{memoized_fibonacci(20)}
 # => (  0.000010)
 {% endhighlight %}
 
-OH YEAH!
 <img class="center" src="http://33.media.tumblr.com/744bc9d8a1d582dc4695c2d65cf644a3/tumblr_msm0hwcecS1rdzuduo7_400.gif" alt="happy dance" style="width: 350px; height: 197px;"/>
 
 

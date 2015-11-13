@@ -7,7 +7,7 @@ categories: phase1 enumerable
 
 When I first started learning Ruby, I was suspicious of its many built in methods.  In particular, Ruby's enumerable methods that both iterate and do something to each element.
 
-Here is a peek behind what is actually goes on when you call these enumerable methods on your data structure.
+Here is a peek behind what is actually going on when you call these enumerable methods on your data structure.
 
 **each**
 {% highlight ruby %}
