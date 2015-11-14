@@ -1,30 +1,191 @@
----
-layout: default
----
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dian Pan</title>
+    <meta name="description" content="Dian Pan, Full Stack Developer">
 
-<div>
-  <img class="img" src="/imgs/IMG_35492.jpg">
-  <br>
-</div>
+    <link rel="shortcut icon" href="imgs/favicon.ico">
 
-<h4 class="center-text">A fun little blog documenting my transition from marketing to full stack development.
-</h4>
+    <!-- Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700'>
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- start header   -->
+        <header class="main-header">
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="http://dianpan.github.io/blog/" target="_blank">Blog</a></li>
+                <li><a href="https://resume.creddle.io/resume/i9083pnrrl3" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <!-- end header -->
+
+        <section id="home" class="row">
+            <div class="overlay">
+                <div class="col home-title jiji">
+                    <h1>Dian Pan</h1>
+                    <h2>Full Stack Developer</h2>
+                    <!-- <a href="https://resume.creddle.io/resume/i9083pnrrl3" target="_blank" class="but">My Resume</a> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="row">
+            <div class="page about-content">
+                <div class="col about-title">
+                    <h3
+                        data-100="-webkit-transform: translateX(100px); opacity:0;"
+                        data-500="-webkit-transform: translateX(0px); opacity:1;"
+                    >About me</h3>
+                </div>
+                <div class="col empty">&nbsp;</div>
+                <div class="col about-description">
+                    <p
+                        data-100="opacity:0;"
+                        data-500="opacity:1;"
+                    >Curious, creative, life-long learner. 3 months ago, I quit my job to pursue coding full time and I haven't looked back since. Check out my <a href="http://dianpan.github.io/blog/">blog</a> to see how I transitioned from marketing to full stack developement.</p>
+                    <a href="mailto:dian.di.pan@gmail.com" class="but">Say hello</a>
+                </div>
+                <div class="col empty">&nbsp;</div>
+            </div>
+        </section>
+
+        <section id="skills" class="row">
+            <div class="skills-content page">
+                <div class="col skills-design"
+                    data-600="-webkit-transform: translateY(10px); opacity:0;"
+                    data-800="-webkit-transform: translateY(0px); opacity:1;"
+                >
+                    <ul>
+                        <li>Languages</li>
+                        <li>Ruby</li>
+                        <li>Javascript</li>
+                        <li>HTML5/CSS3</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="col skills-frontend"
+                    data-600="-webkit-transform: translateY(50px); opacity:0;"
+                    data-800="-webkit-transform: translateY(0px); opacity:1;"
+                >
+                    <ul>
+                        <li>Frameworks</li>
+                        <li>Ruby on Rails</li>
+                        <li>Sinatra</li>
+                        <li>Sass</li>
+                        <li>Foundation</li>
+                    </ul>
+                </div>
+                <div class="col skills-team"
+                    data-600="-webkit-transform: translateY(100px); opacity:0;"
+                    data-800="-webkit-transform: translateY(0px); opacity:1;"
+                >
+                    <ul>
+                        <li>Concepts/Testing</li>
+                        <li>Object Oriented Programming</li>
+                        <li>REST</li>
+                        <li>TDD</li>
+                        <li>Continuous Integration</li>
+                        <li>RSpec</li>
+                        <li>Capybara</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="project" class="row">
+            <div class="project-content page">
+                <div class="col project-title">
+                    <h3
+                        data-900="-webkit-transform: translateX(-100px); opacity:0;"
+                        data-1300="-webkit-transform: translateX(0px); opacity:1;"
+                    >Projects</h3>
+                </div>
+                <div class="col empty">&nbsp;</div>
+                <div class="col project-description">
+                    <p
+                        data-900="opacity:0;"
+                        data-1300="opacity:1;"
+                    >My recent projects</p>
+                </div>
+                <div class="col empty">&nbsp;</div>
+            </div>
+            <div class="project-examples page">
+                <div class="col project-item"
+                    data-1300="opacity:0;"
+                    data-1400="opacity:1;"
+                >
+                    <h4>Can I Afford This</h4>
+                    <p><a href="https://github.com/dianpan/Can-I-Afford-This" target="_none">Github</a> | <a href="http://caniaffordthis.herokuapp.com/" target="_none">Site</a></p>
+                    <img src="imgs/caniaffordthis-homepage.png" alt="Can I Afford This">
+                </div>
 
 
-<div class="home">
-  <h1 class="page-heading center-text">Recent Posts</h1>
+<!--                 <div class="col project-item"
+                    data-1300="opacity:0;"
+                    data-1600="opacity:1;"
+                >
+                    <img src="imgs/caniaffordthis-homepage.png" alt="">
+                    <div class="project-item-inside">
+                        <div class="project-item-inside-content">
+                            <h4>Test</h4>
+                        </div>
+                    </div>
+                </div> -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </div>
+        </section>
 
-        <p>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          {{ post.excerpt }}
-        </p>
-      </li>
-    {% endfor %}
-  </ul>
+        <hr>
 
-</div>
+        <section id="contact" class="row">
+            <div class="contact-content page">
+                <div class="col contact-title">
+                    <h3
+                        data-100="-webkit-transform: translateX(100px); opacity:0;"
+                        data-500="-webkit-transform: translateX(0px); opacity:1;"
+                    >Get in touch</h3>
+                </div>
+                <div class="col empty">&nbsp;</div>
+                <div class="col contact-description">
+                    <a href="mailto:dian.di.pan@gmail.com" class="but">dian.di.pan@gmail.com</a>
+                </div>
+                <div class="col empty">&nbsp;</div>
+                <div class="col span_12 social">
+                    <a class="icon-github" href="https://github.com/dianpan" target="_blank"></a>
+                    <a class="icon-twitter" href="https://twitter.com/lookgoodandwin" target="_blank"></a>
+                    <a class="icon-linkedin" href="https://www.linkedin.com/in/dianpan" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="row">
+            <div class="footer-content page">
+                <div class="col f1">
+                    <p>© 2015 Dian Pan</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div class="loader"></div>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/skrollr.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
