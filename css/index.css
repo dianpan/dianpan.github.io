@@ -181,7 +181,8 @@ h1, h2, h3, h4, h5, h6, p {
    ------------- */
 
 #home {
-    background-image: url(../imgs/background-11.jpg);
+    background-image: url(../imgs/background-6.jpg);
+    /*background-color: #dbe9d8;*/
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +197,8 @@ h1, h2, h3, h4, h5, h6, p {
     left: 0px;
     right: 0px;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.6);
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .home-title h1 {
@@ -318,7 +320,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .project-item-inside {
-    background-color: rgba(0, 0, 0, 1);
+    /*background-color: grey;*/
+    background-image: url(../imgs/background-3.jpg);
+    opacity: 0.6;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
     color: #fff;
     display: block;
     position: absolute;
@@ -326,7 +331,7 @@ h1, h2, h3, h4, h5, h6, p {
     right: 0px;
     top: 0px;
     bottom: 0px;
-    opacity: 0;
+    /*opacity: 0.8;*/
     visibility: hidden;
     text-align: center;
 

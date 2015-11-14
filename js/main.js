@@ -1,20 +1,12 @@
 jQuery(document).ready(function($) {
    'use strict';
 
-	// Projects
-	$(".project-item").hover(function(e){
-		$(this).children('.project-item-inside').addClass("visuallyshowed");
-	}, function(){
-		$(this).children('.project-item-inside').removeClass("visuallyshowed");
-	});
-
 	// Skrollr · Mobile NONE
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	    skrollr.init({
 			beforerender: function(data) {
 				return data.curTop > data.lastTop;
 			}
-
 	    });
 	}
 	// Skrollr

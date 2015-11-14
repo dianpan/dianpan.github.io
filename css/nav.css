@@ -6,7 +6,11 @@
 .nav {
   display: flex;
   flex-direction: column;
-  background-color: #0b0b0b;
+  /*background-color: #0b0b0b;*/
+  /*position: fixed;*/
+  top: 0;
+  border-bottom: none;
+  z-index: 999;
 }
 
 .main-header {
