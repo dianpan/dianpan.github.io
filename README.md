@@ -1,2 +1,2 @@
 # dianpan.github.io
-My [blog](http://dianpan.github.io/).
+My [website](http://dianpan.github.io/).
