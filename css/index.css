@@ -319,38 +319,6 @@ h1, h2, h3, h4, h5, h6, p {
     vertical-align: middle;
 }
 
-.project-item-inside {
-    /*background-color: grey;*/
-    background-image: url(../imgs/background-3.jpg);
-    opacity: 0.6;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
-    color: #fff;
-    display: block;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    /*opacity: 0.8;*/
-    visibility: hidden;
-    text-align: center;
-
-    -webkit-transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
-       -moz-transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
-         -o-transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
-            transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
-}
-
-.project-item-inside.visuallyshowed {
-    opacity: 1;
-    visibility: visible;
-}
-
-.project-item-inside h4 {
-    margin-bottom: 27px;
-    font-weight: 400;
-}
-
 /* --------------------------
   Social
 --------------------------- */
