@@ -42,8 +42,9 @@ hr {
     border: 0;
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
-    background-color: #F10061;
+    max-width: 50%;
+    /*background-color: #F10061;*/
+    background-color: #b0b0b0;
 }
 
 img {
@@ -321,7 +322,6 @@ h1, h2, h3, h4, h5, h6, p {
 /* --------------------------
   Social
 --------------------------- */
-
 .social [class^="icon-"],
 .social [class*=" icon-"] {
     width: 24px;
@@ -342,7 +342,8 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 27px;
     line-height: 1rem;
     line-height: 16px;
-    color: #F10061;
+    /*color: #F10061;*/
+    color: #646473;
     padding: 6px;
     margin: 0 27px;
 
@@ -373,14 +374,9 @@ h1, h2, h3, h4, h5, h6, p {
     content: "\e601";
 }
 
-.icon-instagram:before {
-    content: "\e602";
-}
-
 .icon-github:before {
     content: "\e603";
 }
-
 
 /* --------------------------
   Footer
