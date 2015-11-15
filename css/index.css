@@ -43,7 +43,6 @@ hr {
     margin: 0 auto;
     padding: 0;
     max-width: 50%;
-    /*background-color: #F10061;*/
     background-color: #b0b0b0;
 }
 
@@ -112,7 +111,6 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 16px;
     padding: 0 45px;
     line-height: 55px;
-    /*background-color: #bbc4ef;*/
     background-color: #F10061;
 
     -webkit-border-radius: 45px;
