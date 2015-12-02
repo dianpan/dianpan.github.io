@@ -180,8 +180,10 @@ h1, h2, h3, h4, h5, h6, p {
    ------------- */
 
 #home {
-    background-image: url(../imgs/background-6.jpg);
-    /*background-color: #dbe9d8;*/
+    /*color scheme from http://uigradients.com */
+    background: #C04848; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #C04848 , #480048); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #C04848 , #480048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +198,7 @@ h1, h2, h3, h4, h5, h6, p {
     left: 0px;
     right: 0px;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.3);
+    /*background-color: rgba(0, 0, 0, 0);*/
 }
 
 .home-title h1 {
